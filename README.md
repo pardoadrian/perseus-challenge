@@ -16,5 +16,5 @@ There are ddl sql script for defining the tables structures and a single sql scr
 ## Script
 The load_file script reads from json files and loads the entities into the previuosly created database tables.
 
-# Data arquitecture
+## Data arquitecture
 There is only an stage layer. Ideally there should be an OBJ layer to store the raw json data, then an STAGING area where we use the attributes we need,rename attributes and cast datatypes, and a DIMENSIONAL layer where we consolidate the data.
