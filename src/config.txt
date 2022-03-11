@@ -1,0 +1,7 @@
+[db_env]
+
+user = postgres
+password = postgres
+db = postgres
+server = localhost
+port = 5411
